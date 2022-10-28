@@ -1,0 +1,8 @@
+    The process starts with initializing ‘h’ with the most specific hypothesis, generally, it is the first positive example in the data set.
+    We check for each positive example. If the example is negative, we will move on to the next example but if it is a positive example we will consider it for the next step.
+    We will check if each attribute in the example is equal to the hypothesis value.
+    If the value matches, then no changes are made.
+    If the value does not match, the value is changed to ‘?’.
+    We do this until we reach the last positive example in the data set.
+    
+    =================================================================================================================================================
